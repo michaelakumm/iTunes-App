@@ -3,6 +3,7 @@ const cors = require('cors');
 const morgan = require('morgan');
 const fetch = require('node-fetch');
 const bodyParser = require('body-parser');
+const path = require('path');
 // Helmet is used to secure you app
 // Require Helmet
 const helmet = require('helmet');
