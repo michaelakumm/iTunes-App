@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha",
     "start": "nodemon server.js",
-    "heroku-postbuild": "cd frontend && npm install && npm run-script build"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build--prefix frontend "
   },
   "author": "Michaela Kumm",
   "license": "ISC",
