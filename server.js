@@ -6,7 +6,8 @@ const bodyParser = require('body-parser');
 const path = require('path');
 // Helmet is used to secure you app
 // Require Helmet
-const helmet = require('helmet');
+// ---------------------
+// const helmet = require('helmet');
 
 // Import routes
 const routes = require('./routes/index');
@@ -22,9 +23,9 @@ app.use(bodyParser.urlencoded({
    extended: true
 }));
 app.use(bodyParser.json());
-
 // Use Helmet
-app.use(helmet());
+// -----------------------
+// app.use(helmet());
 
 // Routes
 app.use('/api', routes);
