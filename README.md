@@ -28,7 +28,7 @@ This is a Capstone Project for level 2 of the Full-Stack Web Development boot-ca
 2. Click the heart icon to unselect it and it will be removed
 
 ## Demo
-View the live demo [here](https://git.heroku.com/michaelakumm-itunes-app.git)
+View the live demo [here](https://michaelakumm-itunes-app.herokuapp.com/)
 
 ## Installing, testing and running the code
 ### Installing
